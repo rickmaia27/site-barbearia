@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <title>Barbearia A&T</title>
+</head>
+
+<body>
+    <!-- cabeçalho -->
+    <header>
+        <ul>
+            <li class="icon" id="icon-1"><img src="./assets/icon/poste-de-barbeiro.png" alt="logo"></li>
+            <li class="icon" id="icon-2"><img src="./assets/icon/poste-de-barbeiro.png" alt="logo"></li>
+
+            <li class="i1"><a href="#sobreNos">SOBRE</a></li>
+            <li class="i2"><a href="#servicos">SERVIÇOS</a></li>
+            <li class="i3" onclick="changeDisplay()">PRODUTOS</li>
+            <li class="i5"><a href="#mapa">CONTATO</a></li>
+        </ul>
+    </header>
+    <!-- início -->
+    <main>
+        <div id="container">
+            <div id="main">
+                <div id="bg1" class="bg"></div>
+                <div id="bg2" class="bg"></div>
+                <div id="outdoor-main" class="outdoor">
+                    <div id="txt-main">barba cabelo bigode <img id="mustache-icon" src="./assets/icon/bigodao.png" alt="icon-bigodao"></div>
+                </div>
+            </div>
+            <div id="ads" class="outdoor">
+                <div id="bg3" class="bg"></div>
+                <div id="bg4" class="bg"></div>
+                <div id="outdoor-ads">
+                    <div id="txt-ads">produtos de qualidade<img id="mustache-icon" src="./assets/icon/bigodao.png" alt="icon-bigodao"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- sobre nós -->
+    <article id="sobreNos">
+        <div>
+            <img src="./assets/images/bearded-man-drinking-bar.jpg" alt="" id="img-sobre">
+        </div>
+        <div class="artigoSN">
+            <h1 class="titulos tituloSN">SOBRE NÓS</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, explicabo hic impedit maiores, minusexercitationem ratione iure esse, reiciendis ex eligendi eius facere atque tempora fuga adipisci perferendis. Commodi, nesciunt.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, recusandae cumque! Veritatis provident et ducimus aut! Accusantium natus consectetur ipsa quaerat ex temporibus, illo totam accusamus pariatur expedita. Eaque, placeat.</p>
+        </div>
+        <!-- <div class="a2">
+            <h1>area2</h1>
+        </div> -->
+    </article>
+    <!-- serviços -->
+    <div id="servicos">
+    
+        <!-- <div class="amostra">
+            <div class="s1 square position">corte</div>
+            <div class="s2 square position">barba</div>
+            <div class="s3 square position">sobrancelha</div>
+            <div class="s4 square position">relaxamento</div>
+            <div class="s5 square position">tintura</div>
+            <div class="s6 square position">escova</div>
+        </div> -->
+        <div>
+            <img id="img-serv" src="./assets/images/valores2.jpg" alt="">
+        </div>
+        <div id="artigo-serv">
+            <h1 class="titulos" id="title-serv">NOSSOS SERVIÇOS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, repellendus fugit. Praesentium officia totam ea voluptas assumenda saepe, velit perspiciatis asperiores delectus necessitatibus enim sint at maxime rem tenetur quam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae vero, explicabo eaque inventore, repudiandae ut excepturi pariatur quae adipisci non impedit porro fuga iusto praesentium nesciunt fugit, illum temporibus quasi.</p>
+        </div>
+    </div>
+    <!-- produtos -->
+
+    <!-- onde nos encontrar -->
+    <div id="mapa">
+        <iframe id="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.954665167489!2d-43.98834433937081!3d-19.884136120487735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa691dc88c3030f%3A0xd3cde7d7b1db6dec!2zU2Fsw6NvIEEmVA!5e0!3m2!1spt-BR!2sbr!4v1664237792746!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div id="artigo-mapa">
+            <h1 id="titulo-mapa" class="titulos">ONDE NOS ENCONTRAR</h1>
+            <p>Estamos no bairro Ouro Preto, na rua Mariana Tavares, 141.</p>
+            <a href="">Buscar no mapa</a>
+        </div>
+    </div>
+
+    <!-- agendar -->
+
+    <div id="agendar">Agendar</div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
